@@ -15,7 +15,7 @@ dnf install -y xorg-x11-server-Xorg xorg-x11-xinit xorg-x11-drv-libinput mesa-dr
 
 # 3. Core Xfce packages (Fixed case-sensitivity for exo)
 echo "--> Installing core Xfce components..."
-dnf install -y xfwm4 xfce4-panel xfdesktop xfce4-session xfce4-settings xfce4-terminal thunar tumbler exo
+dnf install -y xfwm4 xfce4-panel xfdesktop xfce4-session xfce4-settings xfce4-terminal thunar tumbler exo xfce4-whiskermenu-plugin featherpad git
 
 # 4. LightDM display manager
 echo "--> Installing and enabling LightDM login manager..."
