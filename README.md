@@ -1,6 +1,6 @@
-# Minimal Fedora Xfce Installer
+# Minimal Fedora Xfce/Cinnamon Installer
 
-A simple bash script to install a **bare-minimum Xfce desktop environment** on a fresh Fedora Minimal / Network Installation (Everything ISO). 
+A simple bash script to install a **bare-minimum Xfce desktop environment or Cinnamon** on a fresh Fedora Minimal / Network Installation (Everything ISO). 
 
 Unlike the official Xfce spin, this script installs only the core components, leaving out pre-installed software like LibreOffice, media players, or games. You get a completely clean slate to build upon.
 
@@ -21,11 +21,11 @@ Unlike the official Xfce spin, this script installs only the core components, le
 2. Download the script or clone this repository.
 3. Make the script executable:
    ```bash
-   chmod +x asenna-xfce.sh
+   chmod +x fedoxfce.sh
    ```
 4. Run the script with root privileges:
    ```bash
-   sudo ./asenna-xfce.sh
+   sudo ./fedoxfce.sh
    ```
 
 At the end of the installation, the script will ask if you want to reboot. Once rebooted, you will be greeted by the LightDM login screen.
